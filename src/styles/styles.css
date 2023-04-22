@@ -8,7 +8,11 @@
     font-family: 'Inter', sans-serif;
 }
 
-.generate-keys {margin-left: 300px;}
+.generate-keys {
+    margin-left: 300px;
+    background-color: #FBFBFC;
+    padding: 50px;
+}
 
 .btn-col-main {
     background-color: #1856C7;
