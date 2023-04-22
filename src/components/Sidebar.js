@@ -1,24 +1,27 @@
 import '../styles/Sidebar.css';
 import { Link } from 'react-router-dom';
+import { FiUser } from "react-icons/fi";
+
 
 
 const NavigationBar = () => {
     return (
-      <div className="sidenav mt-10 flex-col flex w-48">
+      <div className="sidenav flex-col flex w-48">
+        <div><img id="logo" src="/assets/cc-logo.svg"></img></div>
         <div className="links-container ml-10">
           <Link className="nav-item mt-5" to="/generate">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+            <button class="btn-col-main hover:bg-blue-700 text-white py-2 px-4 rounded">
               Patients
             </button>
           </Link>
           <Link className="nav-item mt-5" to="/employer">
-            <button class="bg-white hover:bg-blue-700 text-black py-2 px-4 rounded">
-              Profile
+            <button class="bg-white text-black py-2 px-4 rounded">
+              <FiUser /> Profile
             </button>
           </Link>
 
           <Link className="nav-item mt-5" to="/hospital">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+            <button class="btn-col-main hover:bg-blue-700 text-white py-2 px-4 rounded">
               New Request
             </button>
           </Link>
