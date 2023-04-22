@@ -5,6 +5,7 @@ import Patients from './Patients';
 import NewRequest from './NewRequest';
 import Profile from './Profile';
 import NewReport from './NewReport';
+import UserRequest from './UserRequest';
 
 import GenerateKeys from './Profile';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/profile" element={<Profile/>} />
           <Route path="/patients" element={<Patients/>} />
           <Route path="/patients/report" element={<NewReport/>} />
+          <Route path="/user-request" element={<UserRequest/>} />
         </Routes>
       </div>
 

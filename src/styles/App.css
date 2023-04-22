@@ -123,3 +123,47 @@ button.secondary {
 .main-form .right-container button{
   margin-left: 10px;
 }
+
+.main-form button {
+  min-width: 130px;
+}
+
+.main-form .tertiary-group {
+  position: relative;
+  background-color: #F9FAFE;
+  border-radius: 12px;
+  padding: 20px 35px;
+  margin-top: 20px;
+}
+
+.main-form .tertiary-group .middle {
+  bottom: 52px;
+}
+
+.green {
+  color: #00960D;
+}
+
+.red {
+  color: #FF4444;
+}
+
+.orange {
+  color: #F2870D!important;
+}
+
+.main-form .tertiary-group h4 {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.main-form .tertiary-group p {
+  color: #CCCCCC;
+}
+
+.main-form .tertiary-group p span {
+  color: #808080;
+  font-weight: 600;
+}
+
