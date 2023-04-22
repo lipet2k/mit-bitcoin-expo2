@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import "../styles/styles.css";
 
-export default function Patients ({patients}) {
+export default function Patients () {
+  let patients = [{name: "Trevor Keith", num_past_reports: 0, last_report_date: "1/1/2000", public_key: "abc"}];
   return (
     <div className="patients bg-gray-100 w-{100rem}">
       <p>patient_block</p>
