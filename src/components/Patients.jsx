@@ -32,12 +32,14 @@ function SinglePatientBlock ({ name, num_past_reports, last_report_date, accommo
         <p>Accommodations: <span>{accommodations}</span></p>
         <p>Public Key: <span>{public_key}</span></p>
 
-        <button
-        class="button-main middle right hover:bg-blue-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-        type="button"
-        >
-            Request New Report
-        </button>
+        <a href="/patients/report">
+          <button
+          class="button-main middle right hover:bg-blue-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+          type="button"
+          >
+              Request New Report
+          </button>
+        </a>
       </div>
     </div>
   )
