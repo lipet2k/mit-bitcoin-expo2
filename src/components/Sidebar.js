@@ -36,7 +36,7 @@ const NavigationBar = () => {
 const Header = () => {
 
     return (
-      <div className="heading-container bg-white">
+      <div className="heading-container bg-main">
         <button className="profile-info text-lg large-font heading-font shrink-0 mx-5 mt-2 ">
           <h3>Hospital</h3>
           <p>MIIBOgIBAAJBAKj34GkxFhD90vcNLYL</p>
