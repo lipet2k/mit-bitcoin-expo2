@@ -1,5 +1,9 @@
 @tailwind components;
 
+.box {
+    border-radius: 25%;
+}
+
 .middle-font {
     font-family: 'Inter', sans-serif;
 }

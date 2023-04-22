@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import "../styles/styles.css";
 
-const GenerateKeys = () => {
+function Profile() {
     return (
       <div className="generate-keys bg-gradient-to-r from-purple-300 to-blue-300">
         <h1 className="text-5xl mb-10 middle-font">Generate Keys</h1>
         <GenerateKeysForm />
       </div>
-    );
+    )
 }
 
-const GenerateKeysForm = () => {
+function GenerateKeysForm() {
   return (
       <div className="generate-keys-form">
         <form class="w-full max-w-sm" action="" method="get">
@@ -70,7 +70,7 @@ const GenerateKeysForm = () => {
           </div>
         </form>
       </div>
-  );
+  )
 };
 
-export default GenerateKeys;
+export default Profile;

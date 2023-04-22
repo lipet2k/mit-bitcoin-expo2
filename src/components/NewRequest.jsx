@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Employer = () => {
+const NewRequest = () => {
   return (
       <div className="generate-keys">
         <form class="w-full max-w-sm" action="" method="get">
@@ -41,4 +41,4 @@ const Employer = () => {
   );
 };
 
-export default Employer;
+export default NewRequest;

@@ -9,18 +9,18 @@ const NavigationBar = () => {
       <div className="sidenav flex-col flex w-48">
         <div><img id="logo" src="/assets/cc-logo.svg"></img></div>
         <div className="links-container ml-10">
-          <Link className="nav-item mt-5" to="/generate">
+          <Link className="nav-item mt-5" to="/patients">
             <button class="btn-col-main hover:bg-blue-700 text-white py-2 px-4 rounded">
               Patients
             </button>
           </Link>
-          <Link className="nav-item mt-5" to="/employer">
+          <Link className="nav-item mt-5" to="/profiles">
             <button class="bg-white text-black py-2 px-4 rounded">
               <FiUser /> Profile
             </button>
           </Link>
 
-          <Link className="nav-item mt-5" to="/hospital">
+          <Link className="nav-item mt-5" to="/new_request">
             <button class="btn-col-main hover:bg-blue-700 text-white py-2 px-4 rounded">
               New Request
             </button>
