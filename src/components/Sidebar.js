@@ -1,7 +1,8 @@
 import '../styles/Sidebar.css';
 import { Link } from 'react-router-dom';
 import { FiUser } from "react-icons/fi";
-
+import { RiHospitalFill } from "react-icons/ri";
+import {TbReportMedical} from "react-icons/tb";
 
 
 const NavigationBar = () => {
@@ -11,7 +12,7 @@ const NavigationBar = () => {
         <div className="links-container ml-10">
           <Link className="nav-item mt-5" to="/generate">
             <button class="btn-col-main hover:bg-blue-700 text-white py-2 px-4 rounded">
-              Patients
+              <RiHospitalFill /> Patients
             </button>
           </Link>
           <Link className="nav-item mt-5" to="/employer">
@@ -22,7 +23,7 @@ const NavigationBar = () => {
 
           <Link className="nav-item mt-5" to="/hospital">
             <button class="btn-col-main hover:bg-blue-700 text-white py-2 px-4 rounded">
-              New Request
+              <TbReportMedical /> New Request
             </button>
           </Link>
         </div>
@@ -35,9 +36,10 @@ const NavigationBar = () => {
 const Header = () => {
 
     return (
-      <div className="heading-container bg-white flex mb-5">
-        <button className="text-lg large-font heading-font shrink-0 mx-5 mt-2 ">
-          Concealed Care
+      <div className="heading-container bg-white">
+        <button className="profile-info text-lg large-font heading-font shrink-0 mx-5 mt-2 ">
+          <h3>Hospital</h3>
+          <p>MIIBOgIBAAJBAKj34GkxFhD90vcNLYL</p>
         </button>
         <NavigationBar />
       </div>
