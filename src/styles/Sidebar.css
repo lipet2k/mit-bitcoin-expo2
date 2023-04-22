@@ -1,0 +1,36 @@
+@tailwind components;
+
+.heading-font {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif,
+}
+
+@media screen and (max-width: 640px) {
+    .disappear {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .appear {
+        display: none;
+    }
+}
+
+@layer components {
+    .nav-item {
+        @apply text-neutral-900 hover:text-sky-600 text-xs dark:text-yellow-50 dark:hover:text-zinc-700;
+    }
+}
+
+.nav-item {
+    font-size: 25px;
+}
+
+.sidenav {
+  position: fixed;
+  z-index: 1;
+  background: white;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
